@@ -1,0 +1,67 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center;
+  background-color: #000; /* Dark background */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Center-align the logo and text */
+  flex: 1; /* Allow space for the logo */
+}
+
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  gap: 10px; /* Add space between icon and text */
+}
+
+.logo-icon {
+  font-size: 2rem; /* Adjust size of the logo icon */
+  color: #4caf50; /* Highlight color for the icon */
+}
+
+.logo-text {
+  color: white;
+}
+
+/* Navigation Links Section */
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  gap: 8px; /* Space between icon and text */
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #4caf50; /* Highlight color on hover */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* Icon Styling */
+.icon {
+  font-size: 1.2rem; /* Adjust icon size */
+}

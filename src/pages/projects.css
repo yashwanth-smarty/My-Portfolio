@@ -1,0 +1,114 @@
+/* Projects Container */
+.projects-container {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  }
+  
+  .projects-header {
+    font-size: 3.5rem;
+    color: #2b2d42;
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeInDown 1s ease;
+  }
+
+  .projects-subheader {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #800020;
+    text-align: left;
+  }
+  
+  
+  /* Grid Layout */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 30px; /* Space between cards */
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .project-card {
+    width: 100%;
+    max-width: 380px; /* Card max width */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  /* Image Styling */
+  .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Crop image to fit */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  /* Content Styling */
+  .project-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    color: #01579B; /* Highlight color for title */
+    margin-bottom: 10px;
+  }
+  
+  .project-technologies {
+    font-size: 1rem;
+    color: #ef476f; /* Highlight technologies in teal */
+    margin: 10px 0; /* Spacing around technologies */
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50; /* Green background */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .project-link:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-grid {
+      grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+  }
+  

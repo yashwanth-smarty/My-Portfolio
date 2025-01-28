@@ -1,0 +1,185 @@
+/* Home Section Styles */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add subtle particles effect in the background */
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.6) 70%);
+  z-index: -1;
+  animation: background-fade 10s infinite alternate ease-in-out;
+}
+
+@keyframes background-fade {
+  0% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+.home-content {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #01579B;
+}
+
+.highlight {
+  color: #ef476f; /* Warm and vibrant color for your name */
+}
+.typing{
+  color: #4caf50;
+  font-family: monospace;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.tagline{
+  color: #2e2e2e;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  font-style: oblique;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ff6f61, 0 0 10px #ff856b, 0 0 15px #ff856b;
+  }
+  to {
+    text-shadow: 0 0 20px #ff6f61, 0 0 30px #ff856b, 0 0 40px #ff856b;
+  }
+}
+
+.dynamic-text {
+  font-size: 2rem;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #01579B; /* Bright, eye-catching color for dynamic text */
+  display: inline-block; /* Ensures consistent width */
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Add this to your Home.css file */
+.home-content .dynamic-text span::after {
+  content: "..";
+  display: inline-block;
+  animation: blink 0.7s step-end infinite;
+  color: #ffda79; /* Match the caret color to the text color */
+}
+
+/* @keyframes blink {
+  50% {
+    opacity: 0;
+  }
+} */
+
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #2e2e2e;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #ff6f61, #ff9068);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff856b, #ffa07a);
+}
+
+/* Particle Animation (optional but looks stunning) */
+.home::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+  z-index: -1;
+  opacity: 0.1;
+}
+
+/* Layout adjustments for left and right sections */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 5%; /* Adds some breathing space */
+  box-sizing: border-box;
+}
+
+.home-content {
+  flex: 0 0 60%; /* 70% width for the left section */
+  text-align: left;
+}
+
+.home-image-container {
+  flex: 0 0 40%; /* 30% width for the right section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  width: 400px; /* Adjust the size of the circle */
+  height: 400px;
+  border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #4caf50; /* Optional border for styling */
+  object-fit: cover; /* Ensures the image fits perfectly */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in animation for the image */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
