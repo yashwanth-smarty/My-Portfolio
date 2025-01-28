@@ -35,7 +35,7 @@ const Home = () => {
         {/* Right Section */}
         <div className="home-image-container">
           <img
-            src="src\pages\MyProfile1.jpg" // Replace this with your image URL or path
+            src="src\pages\Profile.jpg" // Replace this with your image URL or path
             alt="Yashwanth"
             className="home-image"
           />
