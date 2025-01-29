@@ -13,7 +13,7 @@ const App = () => {
     <div className="wholepage">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/My-Portfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/certifications" element={<Certifications />} />
