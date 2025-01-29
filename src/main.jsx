@@ -6,7 +6,7 @@ import App from './App'; // Your main App component
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* Set basename to match GitHub Pages subdirectory */}
-    <BrowserRouter basename="/My-Portfolio">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
