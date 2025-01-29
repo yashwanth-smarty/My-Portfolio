@@ -8,7 +8,7 @@ const Projects = () => {
       name: "Conversational Chatbot with Message History",
       description: "A chatbot that maintains conversational context by storing and utilizing message history for seamless interactions.",
       technologies: "Python, LangChain, Flask",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -16,7 +16,7 @@ const Projects = () => {
       name: "Conversational Chat with PDF along with History",
       description: "Built a conversational chatbot capable of querying information from PDFs while preserving chat history.",
       technologies: "Python, LangChain, PDF Libraries",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
 
@@ -26,7 +26,7 @@ const Projects = () => {
       name: "Search Engine Gen AI App using Open Source LLM",
       description: "Designed a search engine application powered by an open-source language model for generating human-like responses.",
       technologies: "Python, Open Source LLM, Flask",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       name: "Blog Generation using AWS Lambda and Bedrock",
       description: "Developed a blog generation tool leveraging AWS Lambda and Amazon Bedrock to create dynamic content efficiently.",
       technologies: "AWS Lambda, Amazon Bedrock, Python",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       name: "YouTube to Blog Page using CrewAI Agents",
       description: "Automated the conversion of YouTube videos into detailed blog pages using CrewAI Agents.",
       technologies: "CrewAI, Python, NLP",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
 
@@ -52,7 +52,7 @@ const Projects = () => {
       name: "Chat with SQL DB using LangChain SQL Toolkit and AgentType",
       description: "Created a system for interacting with SQL databases using LangChain's SQL toolkit and an AgentType framework for intelligent querying.",
       technologies: "Python, LangChain, SQL Toolkit",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -60,7 +60,7 @@ const Projects = () => {
       name: "PDF Query with LangChain and AstraDB",
       description: "Implemented a query tool combining LangChain and AstraDB to extract and retrieve relevant information from PDFs.",
       technologies: "LangChain, AstraDB, Python",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
 
@@ -70,7 +70,7 @@ const Projects = () => {
       name: "YouTube or Website URL Content Summarization",
       description: "Developed a summarization system for extracting concise insights from YouTube videos or website content.",
       technologies: "Python, NLP, Web Scraping",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -78,7 +78,7 @@ const Projects = () => {
       name: "Multi-AI RAG Chatbots using LangGraph and AstraDB",
       description: "Built multiple Retrieval-Augmented Generation (RAG) chatbots utilizing LangGraph and AstraDB for advanced knowledge retrieval.",
       technologies: "LangGraph, AstraDB, Python",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
     {
@@ -86,7 +86,7 @@ const Projects = () => {
       name: "Hybrid RAG Search with PineconeDB and LangChain",
       description: "Designed a hybrid RAG search engine integrating PineconeDB and LangChain for optimized knowledge discovery.",
       technologies: "PineconeDB, LangChain, Python",
-      image: "ChatBot.jpeg",
+      image: "https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
   ];

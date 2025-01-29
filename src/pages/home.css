@@ -192,7 +192,7 @@
   object-fit: cover; /* Ensures the image fits perfectly */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
   animation: fadeIn 1.5s ease-in-out;
-  background-image: url('Profile.jpg');
+  background-image: url('https://raw.githubusercontent.com/yashwanth-smarty/My-portfolio/main/Profile.jpg');
   background-size: cover;
   background-position: center;
 }
