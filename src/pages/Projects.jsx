@@ -86,7 +86,7 @@ const Projects = () => {
       name: "Hybrid RAG Search with PineconeDB and LangChain",
       description: "Designed a hybrid RAG search engine integrating PineconeDB and LangChain for optimized knowledge discovery.",
       technologies: "PineconeDB, LangChain, Python",
-      image: "./ChatBot.jpeg",
+      image: "ChatBot.jpeg",
       link: "https://your-project-link.com",
     },
   ];
@@ -113,8 +113,10 @@ const Projects = () => {
             <div className="projects-grid">
               {projectsForRow.map((project) => (
                 <div key={project.id} className="project-card">
-                  <img src={project.image} alt={project.name} className="project-image" />
-                  <div className="project-content">
+                <div
+                    className="project-image" 
+                    style={{ backgroundImage: `url(${project.image})` }} // Apply background image directly here
+                  ></div>                  <div className="project-content">
                     <h3 className="project-title">{project.name}</h3>
                     <p className="project-technologies">
                       <strong>Technologies:</strong> {project.technologies}

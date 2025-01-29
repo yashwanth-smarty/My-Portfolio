@@ -49,14 +49,22 @@
   }
   
   /* Image Styling */
+  /* .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  } */
   .project-image {
     width: 100%;
     height: 180px;
-    object-fit: cover; /* Crop image to fit */
+    object-fit: cover; 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    background-size: cover; /* Ensures the image covers the area */
+    background-position: center; /* Centers the image */
   }
-  
   /* Content Styling */
   .project-content {
     padding: 20px;
