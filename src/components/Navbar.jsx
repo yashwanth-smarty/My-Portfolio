@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       {/* Logo Icon on the left side */}
       <div className="navbar-logo">
-        <Link to="/My-Portfolio" className="navbar-logo-link">
+        <Link to="/" className="navbar-logo-link">
           <FaLaptopCode className="logo-icon" /> {/* Icon representing your portfolio */}
           <span className="logo-text">MyPortfolio</span> {/* Optional text beside icon */}
         </Link>
